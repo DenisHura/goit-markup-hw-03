@@ -1,0 +1,177 @@
+/* Цвет вспомагательног текста #212121 */
+/* Цвет оосновного текста #757575 */
+/* Цвет лого #000000 */
+/* Цвет акцента #2196F3 */
+/* Белый цвет #FFFFFF */
+:root {
+  --primary-text-color: #757575;
+  --primary-title-color: #212121;
+  --accent-color: #2196f3;
+  --logo-color: #000000;
+  --primary-white: #ffffff;
+  --button-hover-color: #188ce8;
+}
+body {
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Шапка сайта */
+.logo {
+  font-weight: 700;
+  color: var(--logo-color);
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+}
+
+.logo-part {
+  color: var(--accent-color);
+}
+
+.site-nav .link,
+.contact-list .link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav .link {
+  color: var(--primary-title-color);
+}
+
+.contact-list .link {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link:hover,
+.contact-list .link:hover,
+.site-nav .link:focus,
+.contact-list .link:focus,
+.footer-contact-list .link:hover,
+.footer-contact-list .link:focus,
+.site-nav .current-link {
+  color: var(--accent-color);
+}
+
+/* Баннер */
+.hero-title {
+  color: var(--primary-white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* сделал временно, чисто для того, чтобы было видно текст */
+.hero {
+  background-color: #2f303a;
+}
+
+/* Кнопки */
+.button {
+  cursor: pointer;
+}
+
+.button .primary-button {
+  color: var(--primary-white);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+.button .secondary-button {
+  color: var(--primary-title-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+.button .secondary-button:hover,
+.button .secondary-button:focus {
+  color: var(--primary-white);
+  background-color: var(--accent-color);
+}
+
+.button .primary-button:hover,
+.button .primary-button:focus {
+  background-color: var(--button-hover-color);
+}
+
+/* Преимущества */
+
+.item-title {
+  color: var(--primary-title-color);
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+/* Чем мы занимаемся */
+.section-title {
+  color: var(--primary-title-color);
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* Наша Команда */
+.name {
+  color: var(--primary-title-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.position {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/* Футер */
+.footer {
+  background-color: #2f303a;
+}
+
+.footer .logo {
+  color: var(--primary-white);
+}
+
+.address {
+  color: var(--primary-white);
+  font-style: normal;
+}
+
+.footer .link {
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.14;
+  text-decoration: none;
+}
+
+/* Портфолио */
+
+.project-title {
+  color: var(--primary-title-color);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project-type {
+  font-size: 16px;
+  line-height: 1.87;
+}
