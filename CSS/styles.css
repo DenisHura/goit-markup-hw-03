@@ -341,9 +341,6 @@ img {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-
-  background-color: var(--primary-white);
-  border: 1px solid #eeeeee;
 }
 
 .project-item:nth-child(3n) {
@@ -364,4 +361,9 @@ img {
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
+
+  background-color: var(--primary-white);
+
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
