@@ -209,6 +209,9 @@ img {
 }
 
 /*-------------------------------Преимущества-------------------- */
+.benefit-section {
+  padding-bottom: 0;
+}
 .benefit-list {
   display: flex;
 }
