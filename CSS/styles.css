@@ -154,7 +154,7 @@ img {
   background-color: #2f303a;
 }
 
-/* Кнопки */
+/* --------------------------Кнопки------------------------*/
 
 .button-list {
   margin-top: 0;
@@ -229,6 +229,7 @@ img {
   margin-bottom: 10px;
 
   color: var(--primary-title-color);
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -285,15 +286,16 @@ img {
   line-height: 1.19;
 }
 
-/* Футер */
+/*--------------------------------Футер--------------------*/
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer .logo {
   display: block;
-  padding-top: 60px;
-  padding-bottom: 10px;
+  margin-bottom: 20px;
 
   color: var(--primary-white);
 }
@@ -311,13 +313,11 @@ img {
   text-decoration: none;
 }
 
-.footer-contact-list .item + .item {
-  display: block;
-  padding-top: 9px;
-  padding-bottom: 60px;
+.footer-contact-list .item:first-child {
+  margin-bottom: 9px;
 }
 
-/* Портфолио */
+/*------------------------------Портфолио-------------------*/
 
 .project-title {
   margin-bottom: 4px;
